@@ -1,0 +1,14 @@
+name: PullTrident
+version: 1.0.0
+main: me.example.pulltrident.PullTridentPlugin
+api-version: "1.21"
+description: Custom trident that pulls enemies to the thrower
+commands:
+  pulltrident:
+    description: Выдать трезубец притяжения
+    usage: /pulltrident [игрок]
+    permission: pulltrident.give
+permissions:
+  pulltrident.give:
+    description: Разрешает выдавать трезубец
+    default: op
